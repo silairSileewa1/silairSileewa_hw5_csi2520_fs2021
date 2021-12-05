@@ -1,0 +1,72 @@
+*{
+    font-family: sans-serif;
+    margin: 5px, 10px;
+}
+body{
+    min-height: 100vh;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+}
+html{
+    background-image: url(../img/bg_image_resume.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    position: absolute;
+    border-style: solid;
+    border-color: 00ff00;
+    position: relative;
+    text-align: center;
+    margin: 5px, 10px;
+}
+.pic_of_me{
+    position: relative;
+    left: 44%;
+}
+.menu_items{
+    position: absolute;
+    border-style: solid;
+    border-color: 00ff00;
+    top: 0%;
+    left: 2%;
+    width: 90%;
+}
+.contact_information{
+    text-align: center;
+    position: relative;
+    margin: 5px, 10px;
+}
+.Professional_experience{
+    list-style-type: none;
+}
+.educational_experience{
+    list-style-type: none;
+}
+.fabfa-amazon{
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+}
+footer{
+    margin-top: auto;
+}
+.about_me{
+    position: relative;
+margin-top: 100px;
+margin-left: 10px;
+}
+.objective{
+    position: relative;
+    margin-top: 100px;
+}
+.book{
+    margin-top: 100px;
+}
+.music{
+    margin-top: 100px;
+}
+.movie{
+    margin-top: 100px;
+}
