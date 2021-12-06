@@ -10,10 +10,11 @@ app.use(express.urlencoded({ extended: true})); //parse html
 
 
 //initialize ejs middleware
-app.set("viewengine", "ejs");
-app.set('/views', __dirname + '/views');
 app.use("/public", express.static(__dirname + "/public"));
 app.use("/views", express.static(__dirname + "/views"));
+app.set("viewengine", "ejs");
+app.set('/views', __dirname + '/views');
+
 
 //routes
 app.get("/", (req, res) =>{
