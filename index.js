@@ -30,6 +30,10 @@ app.get("/", (req, res) =>{
 app.get("/", (req, res) =>{
     res.render("my_resume.html");
 });
+app.get("/", (req, res) =>{
+    res.render("trivia.html");
+});
+
 
 
 
